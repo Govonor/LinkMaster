@@ -1,0 +1,22 @@
+/* src/pages/styles/JobListing.css */
+
+.job-listing-container {
+    padding: 2rem;
+  }
+  
+  .job-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    transition: box-shadow 0.3s;
+  }
+  
+  .job-card:hover {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-title {
+    font-weight: bold;
+  }
+  

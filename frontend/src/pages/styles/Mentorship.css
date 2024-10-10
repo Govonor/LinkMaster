@@ -1,0 +1,18 @@
+/* src/pages/styles/Mentorship.css */
+
+.mentorship-container {
+    padding: 2rem;
+  }
+  
+  .mentor-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .mentor-item {
+    margin: 1rem 0;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
