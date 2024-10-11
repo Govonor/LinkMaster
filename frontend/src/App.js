@@ -1,7 +1,5 @@
-// src/App.js
-
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer'; // Optional
 import Home from './pages/Home';
@@ -11,12 +9,12 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Mentorship from './pages/Mentorship';
 import EventCalendar from './pages/EventCalendar';
-import CollaborativeProjects from './pages/CollaborativeProjects';
+import CollaborativeProjects from './pages/CollaborativeProjects'; // Ensure this path is correct
 import './App.css';
 
 const App = () => {
   return (
-    <Router>
+    <>
       <Navbar />
       <div className="container">
         <Routes>
@@ -31,7 +29,7 @@ const App = () => {
         </Routes>
       </div>
       <Footer /> {/* Optional footer component */}
-    </Router>
+    </>
   );
 };
 
